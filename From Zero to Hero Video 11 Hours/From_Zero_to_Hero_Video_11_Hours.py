@@ -20,9 +20,11 @@ name ='Removed first input name, adding something different'
 print(name)  '''
 
 firstName = input("What is your First name?")
-firstName = firstName.upper()
+firstName = firstName.swapcase()   # swapcase, Lower, upper
 lastName = input("What is your Last name?")
 print ("\nHello " + firstName +" "+ lastName)
+
+
 
 
 
