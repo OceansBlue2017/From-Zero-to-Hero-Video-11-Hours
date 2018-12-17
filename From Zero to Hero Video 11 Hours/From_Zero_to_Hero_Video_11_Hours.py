@@ -9,3 +9,5 @@ print('Or we can put it like this \" to get the double quote to print')
 
 print ("It's a sunny day,  \\news   in Keller")  #  \\ before the n to print the n letter 
 
+name = input("What is your name? ")
+print (name)
